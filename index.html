@@ -3,47 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>images</title>
+    <title>Forms</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>My Bookmarks</h1>
-    <img height="230" src="image.png" alt="random image" />
-    <table>
-      <thead>
-        <tr>
-          <th>name</th>
-          <th>designation</th>
-          <th>contact</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Harry</td>
-          <td>Programmer</td>
-          <td>1234567890</td>
-        </tr>
-        <tr>
-          <td>shobhnath</td>
-          <td>Programmer</td>
-          <td>1234567890</td>
-        </tr>
-      </tbody>
-      <tfoot>
-        <tr>
-          <td>footer</td>
-          <td>footer</td>
-          <td>footer</td>
-        </tr>
-      </tfoot>
-    </table>
-    <ul type="square">
-      <li>Harry</li>
-      <li>shobhnath</li>
-    </ul>
-    <ol type="i">
-      <li>Harry</li>
-      <li>shobhnath</li>
-    </ol>
+    <h1>HTML FORMS</h1>
+    <forms action="post">
+      <div
+      <label for="username">Enter Your Name:</label>
+      <input type="text" id="username" placeholder="Enter Your Name" />
+      <label for="email">Enter Your Email:</label>
+      <input type="email" id="email" placeholder="Enter Your Email" />
+      <div>
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="mail">Male</label>
+        <input type="radio" id="female" name="gender" value="female" />
+        <lavel>female</lavel>
+        <div>
+          <label>content</label><br>
+          <textarea name="message" id="message" cols="30" rows="10">
+            Enter Your Message Here...
+          </textarea>
+
+        </div>
+      </div>
+    </div>
+    <input type="checkbox" name="vehicle1" value="Bike" /><br>
+    <select>
+      <option value="html">HTML</option>
+      <option value="css">CSS</option>
+      <option value="javascript">JAVASCRIPT</option>
+      <option value="php">PHP</option>
+      <option value="mysql">MYSQL</option>
+
+    </select>
+    </forms>
   </body>
 </html>
